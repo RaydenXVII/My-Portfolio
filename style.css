@@ -287,8 +287,8 @@ footer {
     margin-bottom: 2rem;
   }
   .profile-pic {
-    width: 220px;
-    height: 220px;
+    width: 270px;
+    height: 270px;
   }
 }
 @media (max-width: 768px) {
@@ -337,8 +337,8 @@ footer {
   }
 
   .profile-pic {
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 250px;
   }
 }
 @media (max-width: 600px) {
@@ -357,14 +357,14 @@ footer {
     font-size: 1.3rem;
   }
   .profile-pic {
-    width: 180px;
-    height: 180px;
+    width: 230px;
+    height: 230px;
   }
 }
 @media (max-width: 480px) {
   .profile-pic {
-    width: 160px;
-    height: 160px;
+    width: 210px;
+    height: 210px;
   }
   .img-gradient {
     padding: 8px;
@@ -385,8 +385,8 @@ footer {
 }
 @media (max-width: 360px) {
   .profile-pic {
-    width: 140px;
-    height: 140px;
+    width: 190px;
+    height: 190px;
   }
   .img-gradient {
     padding: 6px;
