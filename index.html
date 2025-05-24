@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Randy Deniz M | Web Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+  </head>
+  <body id="home">
+    <header class="header">
+      <div class="logo">Randy <span class="logo-highlight">Deniz M</span></div>
+      <nav class="nav">
+        <ul>
+          <li><a href="#home" class="nav-link active">Home</a></li>
+          <li><a href="#services" class="nav-link">Services</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="hero">
+        <div class="hero-content">
+          <h1>Hi, It's <span class="highlight">Randy</span></h1>
+          <h2>
+            I'm a
+            <span class="highlight-alt" id="typed-text">Web Developer</span>
+          </h2>
+          <p class="desc">
+            I am a software engineering student at Telkom University Surabaya
+            with a strong passion for game development and web development.
+            Experienced in building efficient, user-friendly web applications
+            and creating fun, engaging games. I am committed to continuous
+            learning and growth while staying <span>up-to-date</span>with the
+            latest technological advancements. With a focus on quality,
+            performance, and security, I am eager to contribute to dynamic teams
+            and deliver innovative digital solutions.
+          </p>
+          <div class="social-icons">
+            <a
+              href="https://www.linkedin.com/in/randydenizm/"
+              class="social linkedin"
+              aria-label="LinkedIn"
+              target="_blank"
+              rel="noopener noreferrer"
+              ><i class="fab fa-linkedin-in"></i
+            ></a>
+            <a
+              href="https://github.com/RaydenXVII"
+              class="social github"
+              aria-label="GitHub"
+              target="_blank"
+              rel="noopener noreferrer"
+              ><i class="fab fa-github"></i
+            ></a>
+          </div>
+          <div class="hero-buttons">
+            <a
+              href="./CV/Randy Deniz Manzarasi-resume.pdf"
+              class="btn btn-cv"
+              download
+              >Download CV</a
+            >
+            <a
+              href="https://www.linkedin.com/in/randydenizm/"
+              class="btn btn-contact"
+              >Contact</a
+            >
+          </div>
+        </div>
+        <div class="hero-img">
+          <div class="img-gradient">
+            <img
+              src="images/FotoDiri.jpg"
+              alt="Profile Picture"
+              class="profile-pic"
+            />
+          </div>
+        </div>
+      </section>
+      <section class="services-section" id="services">
+        <div class="services-container">
+          <h1 class="section-title">My Services</h1>
+          <div class="services-list">
+            <div class="service-card">
+              <i class="fas fa-code service-icon"></i>
+              <h2 class="service-title">Web Development</h2>
+              <p class="service-desc">
+                Membangun website responsif dan modern dengan teknologi terbaru.
+              </p>
+            </div>
+            <div class="service-card">
+              <i class="fas fa-gamepad service-icon"></i>
+              <h2 class="service-title">Game Development</h2>
+              <p class="service-desc">
+                Membuat game yang menarik dan menghibur dengan Unity.
+              </p>
+            </div>
+            <div class="service-card">
+              <i class="fas fa-mobile-alt service-icon"></i>
+              <h2 class="service-title">Mobile Development</h2>
+              <p class="service-desc">
+                Mengembangkan aplikasi mobile yang user-friendly dan performant.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="projects-section" id="projects">
+        <h1 class="section-title">My Projects</h1>
+        <div class="projects-list">
+          <div class="project-card">
+            <img src="images/Menu.png" alt="Project 1" class="project-img" />
+            <h2 class="project-title">Last Transaction</h2>
+            <p class="project-desc">
+              Game horror 3 dimensi yang dibuat menggunakan Unity Engine. Pemain
+              harus menyelesaikan misi untuk mengungkap misteri di balik
+              kejadian aneh yang terjadi di toko.
+            </p>
+            <a
+              href="projects.html#ecommerce"
+              class="btn btn-project"
+              target="_blank"
+              rel="noopener noreferrer"
+              >View Project</a
+            >
+          </div>
+          <div class="project-card">
+            <img
+              src="images/project2.jpg"
+              alt="Project 2"
+              class="project-img"
+            />
+            <h2 class="project-title">Kampung Buku</h2>
+            <p class="project-desc">
+              Website katalog buku yang dibuat dengan Laravel dan TailwindCSS.
+              Memudahkan pengguna untuk menjelajahi koleksi buku dan toko buku
+              yang ada di kampung buku.
+            </p>
+            <a
+              href="projects.html#taskmanager"
+              class="btn btn-project"
+              target="_blank"
+              rel="noopener noreferrer"
+              >View Project</a
+            >
+          </div>
+          <div class="project-card">
+            <img src="images/Lobby.jpeg" alt="Project 3" class="project-img" />
+            <h2 class="project-title">VR Gun Range Simulator</h2>
+            <p class="project-desc">
+              Game simulasi menembak yang dibuat dengan Unreal Engine 5.
+              Pengguna dapat berlatih menembak dengan berbagai senjata di
+              lingkungan virtual yang realistis.
+            </p>
+            <a
+              href="projects.html#lms"
+              class="btn btn-project"
+              target="_blank"
+              rel="noopener noreferrer"
+              >View Project</a
+            >
+          </div>
+        </div>
+      </section>
+      <section class="skills-section" id="skills">
+        <div class="skills-container">
+          <h1 class="section-title">Skills</h1>
+          <p class="skills-subtitle">Education and Technical Skills</p>
+
+          <div class="skills-content">
+            <div class="education-section">
+              <h2 class="skills-heading">Education</h2>
+              <div class="education-item">
+                <div class="education-details">
+                  <h3 class="education-title">Telkom University Surabaya</h3>
+                  <p class="education-major">Software Engineering</p>
+                  <p class="education-period">2022 - Present</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="technical-skills-section">
+              <h2 class="skills-heading">Technical Skills</h2>
+              <div class="skills-grid">
+                <div class="skill-item">
+                  <div class="skill-icon">
+                    <i class="fab fa-html5"></i>
+                  </div>
+                  <span class="skill-name">HTML</span>
+                </div>
+                <div class="skill-item">
+                  <div class="skill-icon">
+                    <i class="fab fa-css3-alt"></i>
+                  </div>
+                  <span class="skill-name">CSS</span>
+                </div>
+                <div class="skill-item">
+                  <div class="skill-icon">
+                    <i class="fab fa-bootstrap"></i>
+                  </div>
+                  <span class="skill-name">Bootstrap</span>
+                </div>
+                <div class="skill-item">
+                  <div class="skill-icon">
+                    <i class="fab fa-php"></i>
+                  </div>
+                  <span class="skill-name">PHP</span>
+                </div>
+                <div class="skill-item">
+                  <div class="skill-icon">
+                    <i class="fab fa-laravel"></i>
+                  </div>
+                  <span class="skill-name">Laravel</span>
+                </div>
+                <div class="skill-item">
+                  <div class="skill-icon">
+                    <i class="fas fa-database"></i>
+                  </div>
+                  <span class="skill-name">MySQL</span>
+                </div>
+                <div class="skill-item">
+                  <div class="skill-icon">
+                    <i class="fab fa-unity"></i>
+                  </div>
+                  <span class="skill-name">Unity</span>
+                </div>
+                <div class="skill-item">
+                  <div class="skill-icon">
+                    <i class="fas fa-gamepad"></i>
+                  </div>
+                  <span class="skill-name">Unreal Engine</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; 2025 Randy Deniz Manzarasi. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
